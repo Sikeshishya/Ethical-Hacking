@@ -30,6 +30,19 @@ Place the doenloaded exe file in evil files.
 
 WHne the traget machine runs the command https://192,168.144.121/evil-files/gth-exe, the file gets downloaded and we have the access to the target computer 
 
+ Spoofing .exe Extension To Any Extension (jpg, pdf, etc.)
+
+Gtr.exe
+
+Gtrgpj.exe=> use right to left over ride after ‘g’
+Copy the name and rename the original file 
+
+87. Spoofing Emails - Setting Up an SMTP Server
+
+This can be done by a server host.we need to buy a membership from brevo.
+Sendemmail -xu user@gmail.com -xp(password) -s(server_name:port) -f(emiail id of the person from whom the mail needs to be sent) -u(title of the mail) -m(body of the mail along with the trojan link that needs to be downloaded)
+
+
 
 
 
